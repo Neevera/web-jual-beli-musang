@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Kontak | MusangMarket</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== BODY FLEX ===== */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1f7a4d;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== CONTENT ===== */
+.content {
+  flex: 1;
+}
+
+/* ===== KONTAK ===== */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.contact-box {
+  background-color: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.contact-box p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* ===== INFO ===== */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #1f7a4d;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #1f7a4d;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <h1>MusangMarket</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="katalog.html">Katalog</a>
+    <a href="promo.html">Promo</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+</header>
+
+<!-- ===== CONTENT ===== -->
+<div class="content">
+  <div class="contact-container">
+    <div class="contact-box">
+      <h2>Kontak Penjualan Musang</h2>
+      <p>
+        Apabila Anda ingin menjual musang kepada MusangMarket,
+        silakan hubungi kami melalui kontak di bawah ini.
+        Tim kami akan melakukan pengecekan dan verifikasi sebelum proses penjualan.
+      </p>
+
+      <div class="contact-info">
+        <p><span class="highlight">WhatsApp:</span> 08xxxxxxxxxx</p>
+        <p><span class="highlight">Email:</span> admin@musangmarket.com</p>
+        <p><span class="highlight">Alamat:</span> Surakarta, Jawa Tengah</p>
+        <p><span class="highlight">Jam Operasional:</span> Senin – Minggu (09.00 – 22.00 WIB)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 MusangMarket | Kontak Penjualan</p>
+</footer>
+
+</body>
+</html>

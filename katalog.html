@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Katalog Musang | MusangMarket</title>
+
+<style>
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1f7a4d;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== JUDUL HALAMAN ===== */
+.page-title {
+  text-align: center;
+  padding: 40px 20px 30px;
+}
+
+.page-title h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.page-title p {
+  color: #555;
+}
+
+/* ===== TABEL KATALOG ===== */
+.table-container {
+  padding: 0 40px 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align: center;
+}
+
+th {
+  background-color: #1f7a4d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ===== STATUS ===== */
+.status-tersedia {
+  color: green;
+  font-weight: bold;
+}
+
+.status-terjual {
+  color: red;
+  font-weight: bold;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #1f7a4d;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <h1>MusangMarket</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="katalog.html">Katalog</a>
+    <a href="promo.html">Promo</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+</header>
+
+<!-- ===== JUDUL ===== -->
+<div class="page-title">
+  <h2>Katalog Musang</h2>
+  <p>Daftar lengkap musang yang tersedia dan terjual</p>
+</div>
+
+<!-- ===== TABEL ===== -->
+<div class="table-container">
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Jenis Musang</th>
+      <th>Usia</th>
+      <th>Jenis Kelamin</th>
+      <th>Harga</th>
+      <th>Status</th>
+    </tr>
+<tr>
+  <td>1</td>
+  <td>Musang Pandan</td>
+  <td>6 Bulan</td>
+  <td>Jantan</td>
+  <td>Rp 1.500.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Musang Bulan</td>
+  <td>8 Bulan</td>
+  <td>Betina</td>
+  <td>Rp 2.000.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Musang Akar</td>
+  <td>1 Tahun</td>
+  <td>Jantan</td>
+  <td>Rp 2.500.000</td>
+  <td class="status-terjual">Terjual</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Musang Pandan Albino</td>
+  <td>7 Bulan</td>
+  <td>Betina</td>
+  <td>Rp 3.200.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Musang Bulan Premium</td>
+  <td>1 Tahun</td>
+  <td>Jantan</td>
+  <td>Rp 3.000.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>Musang Akar Lokal</td>
+  <td>9 Bulan</td>
+  <td>Betina</td>
+  <td>Rp 2.300.000</td>
+  <td class="status-terjual">Terjual</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>Musang Pandan Mini</td>
+  <td>5 Bulan</td>
+  <td>Jantan</td>
+  <td>Rp 1.300.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>Musang Bulan Super</td>
+  <td>10 Bulan</td>
+  <td>Betina</td>
+  <td>Rp 2.800.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>Musang Akar Jawa</td>
+  <td>1 Tahun</td>
+  <td>Jantan</td>
+  <td>Rp 2.700.000</td>
+  <td class="status-terjual">Terjual</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>Musang Pandan Premium</td>
+  <td>8 Bulan</td>
+  <td>Betina</td>
+  <td>Rp 2.600.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+
+<!-- 11–20 -->
+<tr>
+  <td>11</td>
+  <td>Musang Bulan Lokal</td>
+  <td>6 Bulan</td>
+  <td>Jantan</td>
+  <td>Rp 1.800.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td>Musang Akar Premium</td>
+  <td>1 Tahun</td>
+  <td>Betina</td>
+  <td>Rp 3.100.000</td>
+  <td class="status-terjual">Terjual</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td>Musang Pandan Silver</td>
+  <td>7 Bulan</td>
+  <td>Jantan</td>
+  <td>Rp 2.900.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td>Musang Bulan Hitam</td>
+  <td>9 Bulan</td>
+  <td>Betina</td>
+  <td>Rp 2.400.000</td>
+  <td class="status-tersedia">Tersedia</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td>Musang Akar Sumatra</td>
+  <td>1 Tahun</td>
+  <td>Jantan</td>
+  <td>Rp 3.300.000</td>
+  <td class="status-terjual">Terjual</td>
+</tr>
+
+<!-- 16–30 -->
+<tr><td>16</td><td>Musang Pandan Super</td><td>6 Bulan</td><td>Betina</td><td>Rp 2.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>17</td><td>Musang Bulan Mini</td><td>5 Bulan</td><td>Jantan</td><td>Rp 1.400.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>18</td><td>Musang Akar Kalimantan</td><td>1 Tahun</td><td>Betina</td><td>Rp 3.500.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>19</td><td>Musang Pandan Gold</td><td>8 Bulan</td><td>Jantan</td><td>Rp 3.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>20</td><td>Musang Bulan Jawa</td><td>9 Bulan</td><td>Betina</td><td>Rp 2.100.000</td><td class="status-tersedia">Tersedia</td></tr>
+
+<!-- 21–50 -->
+<tr><td>21</td><td>Musang Akar Bali</td><td>1 Tahun</td><td>Jantan</td><td>Rp 3.000.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>22</td><td>Musang Pandan Lokal</td><td>6 Bulan</td><td>Betina</td><td>Rp 1.700.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>23</td><td>Musang Bulan Premium Plus</td><td>1 Tahun</td><td>Jantan</td><td>Rp 3.800.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>24</td><td>Musang Akar Mini</td><td>7 Bulan</td><td>Betina</td><td>Rp 2.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>25</td><td>Musang Pandan Exotic</td><td>9 Bulan</td><td>Jantan</td><td>Rp 3.600.000</td><td class="status-terjual">Terjual</td></tr>
+
+<tr><td>26</td><td>Musang Bulan Exotic</td><td>8 Bulan</td><td>Betina</td><td>Rp 3.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>27</td><td>Musang Akar Premium Plus</td><td>1 Tahun</td><td>Jantan</td><td>Rp 4.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>28</td><td>Musang Pandan Breeder</td><td>1 Tahun</td><td>Betina</td><td>Rp 4.200.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>29</td><td>Musang Bulan Breeder</td><td>1 Tahun</td><td>Jantan</td><td>Rp 4.500.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>30</td><td>Musang Akar Breeder</td><td>1 Tahun</td><td>Betina</td><td>Rp 4.800.000</td><td class="status-terjual">Terjual</td></tr>
+
+<tr><td>31</td><td>Musang Pandan Rare</td><td>10 Bulan</td><td>Jantan</td><td>Rp 5.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>32</td><td>Musang Bulan Rare</td><td>10 Bulan</td><td>Betina</td><td>Rp 5.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>33</td><td>Musang Akar Rare</td><td>1 Tahun</td><td>Jantan</td><td>Rp 5.500.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>34</td><td>Musang Pandan Champion</td><td>1 Tahun</td><td>Betina</td><td>Rp 6.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>35</td><td>Musang Bulan Champion</td><td>1 Tahun</td><td>Jantan</td><td>Rp 6.500.000</td><td class="status-tersedia">Tersedia</td></tr>
+
+<tr><td>36</td><td>Musang Akar Champion</td><td>1 Tahun</td><td>Betina</td><td>Rp 6.800.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>37</td><td>Musang Pandan Elite</td><td>1 Tahun</td><td>Jantan</td><td>Rp 7.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>38</td><td>Musang Bulan Elite</td><td>1 Tahun</td><td>Betina</td><td>Rp 7.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>39</td><td>Musang Akar Elite</td><td>1 Tahun</td><td>Jantan</td><td>Rp 7.500.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>40</td><td>Musang Pandan Ultimate</td><td>1 Tahun</td><td>Betina</td><td>Rp 8.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+
+<tr><td>41</td><td>Musang Bulan Ultimate</td><td>1 Tahun</td><td>Jantan</td><td>Rp 8.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>42</td><td>Musang Akar Ultimate</td><td>1 Tahun</td><td>Betina</td><td>Rp 8.500.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>43</td><td>Musang Pandan Supreme</td><td>1 Tahun</td><td>Jantan</td><td>Rp 9.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>44</td><td>Musang Bulan Supreme</td><td>1 Tahun</td><td>Betina</td><td>Rp 9.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>45</td><td>Musang Akar Supreme</td><td>1 Tahun</td><td>Jantan</td><td>Rp 9.500.000</td><td class="status-terjual">Terjual</td></tr>
+
+<tr><td>46</td><td>Musang Pandan Limited</td><td>1 Tahun</td><td>Betina</td><td>Rp 10.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>47</td><td>Musang Bulan Limited</td><td>1 Tahun</td><td>Jantan</td><td>Rp 10.200.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>48</td><td>Musang Akar Limited</td><td>1 Tahun</td><td>Betina</td><td>Rp 10.500.000</td><td class="status-terjual">Terjual</td></tr>
+<tr><td>49</td><td>Musang Pandan Signature</td><td>1 Tahun</td><td>Jantan</td><td>Rp 11.000.000</td><td class="status-tersedia">Tersedia</td></tr>
+<tr><td>50</td><td>Musang Bulan Signature</td><td>1 Tahun</td><td>Betina</td><td>Rp 11.500.000</td><td class="status-tersedia">Tersedia</td></tr>
+
+  </table>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 MusangMarket | Katalog Musang</p>
+</footer>
+
+</body>
+</html>
